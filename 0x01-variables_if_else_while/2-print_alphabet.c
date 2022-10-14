@@ -1,18 +1,18 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Entry point
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char l;
+	char c;
 
-	l = 'a';
-	while (l <= 'z')
+	c = 'a';
+	while (c <= 'z')
 	{
-		putchar(l);
-		l++;
+		putchar(c);
+		c++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
