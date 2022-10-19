@@ -13,6 +13,6 @@ int _abs(int n)
 	else
 	{
 		n = n * -1;
-		return (n);
 	}
+	return (0);
 }
